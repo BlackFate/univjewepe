@@ -11,7 +11,7 @@ if (isset($_POST["InputPelajar"])) {
   $KELAS_PELAJAR = $_POST["KelasPelajar"];
   $NIM_PELAJAR = $_POST["NimPelajar"];
 
-  $QUERY = mysqli_query($KONEKSI, "INSERT INTO `pelajar`(`id_pelajar`, `nm_pelajar`, `kls_pelajar`, `nim_pelajar`, `role`) VALUES (NULL,'$NAMA_PELAJAR','$KELAS_PELAJAR','$NIM_PELAJAR')") or die(mysqli_error($KONEKSI));
+  $QUERY = mysqli_query($KONEKSI, "INSERT INTO `pelajar`(`id_pelajar`, `nm_pelajar`, `kls_pelajar`, `nim_pelajar`, `role`) VALUES (NULL,'$NAMA_PELAJAR','$KELAS_PELAJAR','$NIM_PELAJAR','pelajar')") or die(mysqli_error($KONEKSI));
   if ($QUERY) {
     echo "<script> alert('Anda berhasil menambahkan pelajar.');</script>";
   }
@@ -165,7 +165,7 @@ if (isset($_POST["Edit"])) {
                                   <td class="d-flex">
                                       <input type="text" name="ID" value="' . $DATA["id_pelajar"] . '" hidden>
                                       <input type="submit" value="Edit" name="Edit" class="btn btn-warning mx-1">
-                                      <a href="course-config.php?Aksi=Hapus&id=' . $DATA['id_pelajar'] . '" class="btn btn-danger">Hapus</a>
+                                      <a href="course-config.php?Aksi=Hapus1&id=' . $DATA['id_pelajar'] . '" class="btn btn-danger">Hapus</a>
                                   </td>
                                   </form>
                                </tr>

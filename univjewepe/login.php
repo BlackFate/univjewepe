@@ -100,7 +100,7 @@
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
   </head>
-  <body class="text-center bg-anime">  
+  <body class="text-center bg-bg">  
     <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="mb-auto px-5">
         <div class="text-white">

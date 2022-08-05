@@ -73,15 +73,15 @@
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center bg-anime">
+  <body class="d-flex h-100 text-center bg-bg">
     
 <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto px-5">
     <div class="text-white">
       <h3 class="float-md-start mb-0">Jewepe</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.php">Beranda</a>
-        <a class="nav-link fw-bold py-1 px-0" href="course.php">Kursus</a>
+        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="index.php" >Beranda</a>
+        <a class="nav-link fw-bold py-1 px-0" href="course.php" >Kursus</a>
 
         <?php
               if (isset ($_SESSION["role"])=="pelajar") {
@@ -91,7 +91,7 @@
               }
               else {
                 echo '
-                <a class="nav-link fw-bold py-1 px-0" href="login.php">Login</a>
+                <a class="nav-link fw-bold py-1 px-0" href="login.php" >Login</a>
                 ';
               }
             ?>

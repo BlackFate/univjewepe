@@ -166,7 +166,7 @@ if (isset($_POST["Edit"])) {
                                   <td class="d-flex">
                                       <input type="text" name="ID" value="' . $DATA["id_jadwal"] . '" hidden>
                                       <input type="submit" value="Edit" name="Edit" class="btn btn-warning mx-1">
-                                      <a href="course-config.php?Aksi=Hapus&id=' . $DATA['id_jadwal'] . '" class="btn btn-danger">Hapus</a>
+                                      <a href="course-config.php?Aksi=Hapus2&id=' . $DATA['id_jadwal'] . '" class="btn btn-danger">Hapus</a>
                                   </td>
                                   </form>
                                </tr>

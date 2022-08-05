@@ -83,8 +83,8 @@ body {
   border-top-right-radius: 0;
 }
 
-.bg-anime {
-  background-image: url("background (2).jpg");
+.bg-bg {
+  background-image: url("bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
