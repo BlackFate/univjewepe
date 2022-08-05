@@ -108,7 +108,7 @@
 
 </head>
 
-<body class="d-flex h-100 text-center bg-anime">
+<body class="d-flex h-100 text-center bg-bg">
     <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto px-5">
             <div class="text-white">

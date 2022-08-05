@@ -102,7 +102,7 @@ if (isset($_POST["Edit"])) {
   <link href="style.css" rel="stylesheet">
 </head>
 
-<body class="h-100 text-center bg-anime">
+<body class="h-100 text-center bg-bg">
 
   <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="px-5">
@@ -129,7 +129,7 @@ if (isset($_POST["Edit"])) {
       <div class="row">
         <div class="col-4">
         </div>
-        <div class="col-8 px-5">
+        <div class="px-5">
           <table class="table mt-3 text-white bg-dark">
             <thead>
               <tr>
